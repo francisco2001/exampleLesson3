@@ -1,0 +1,9 @@
+leap.years<- function(x){
+  
+  if ((x %% 4 ==0) & (x %% 100 != 0) | (x %% 400 == 0)) 
+    print("TRUE")
+  else 
+    print ("FALSE")
+}
+
+leap.years (c(2000,2001,2002,1983))
